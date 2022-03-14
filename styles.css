@@ -1,0 +1,64 @@
+body,
+html {
+	background: black;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: "Fredoka", sans-serif;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.postcard-header h1 {
+	margin: 0px;
+	padding: 5px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.postcard-body div {
+	padding: 5px;
+}
+
+.body-left p:nth-child(1) {
+	margin-top: 0px;
+}
+
+input {
+	border: none;
+	border-bottom: gray 1px solid;
+}
+
+p {
+	font-size: 16px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #b8b8b8;
+	padding: 5px;
+	border-radius: 3px;
+}
